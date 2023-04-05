@@ -1,0 +1,256 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Agenda - Projeto de Design</title>
+    <link rel="shortcut icon" href="imagens/favicon.ico" type="image/x-icon">
+    <link rel="stylesheet" href="style/style.css">
+</head>
+<body>
+    <header id="topo">
+        <h1>Agenda</h1>
+        <p>Planeje o seu evento na sede recreativa de forma prática e fácil com nosso aplicativo.</p>
+    </header>
+    <nav>
+        <a href="#empatia" accesskey="1">Empatia [1]</a>
+        <a href="#definicao" accesskey="2">Definição [2]</a>
+        <a href="#ideacao" accesskey="3">Ideação [3]</a>
+        <a href="#prototipo" accesskey="4">Protótipo [4]</a>
+        <a href="#testes" accesskey="5">Testes [5]</a>
+        <a href="#criadora" accesskey="6">Criadora [6]</a>
+        <a href="#topo" accesskey="0">Topo [0]</a>
+    </nav>
+    <main>
+        <article>
+            <h2>Design Thinking</h2>
+
+            <p>É um processo utilizado por quem deseja aperfeiçoar seu processo de criação de forma simples, ágil e bem planejada;
+            Metodologia utilizada para oferecer produtos e serviços de acordo com a real necessidade dos clientes para gerar e organizar ideias e, assim, encontrar soluções para os problemas;</p>
+            <p>Dividido em cinco fases de planejamento das quais utilizamos para o desenvolvimento deste trabalho.</p> 
+
+            <h2 id="empatia">Fase 1 - Empatia</h2>
+
+            <p><strong>Problema</strong>: Criar uma agenda online para efetuar alugueis de uma Sede Recreativa.</p>
+
+            <p><strong>Objetivo</strong>: Aplicativo que mostre os dias que tem eventos agendados para os clientes e os funcionários. Permita pré-reservas de datas.</p>
+
+            <p><strong>Demanda</strong>: O controle da agenda é feito por planilhas de excel localizados no escritório da empresa, sem acesso remoto ou online, isso dificulta a troca de informações em horário não comercial, entre os funcionários que trabalham na organização sobre atualizações feitas na agenda e aos clientes. Reservas são perdidas por falta de acesso ao calendário por parte dos clientes, que sem acesso a agenda, acabam planejando eventos em datas já ocupadas.</p>
+
+            <p>Visite <a href="https://miro.com/app/board/uXjVObwSVQw=/?invite_link_id=709177125005" target="_blank">meu quadro Miro</a> e acesse todo o processo criativo e informações referentes ao aplicativo Agenda.</p>
+
+            <p class="ancora"><a href="#topo" >Ir para o topo</a></p>
+             
+            <h2 id="definicao">Fase 2 - Definição</h2> 
+
+            <p>O aplicativo foi pensado para ter três tipos de acesso: administrador, organização e associado. Cada nível de acesso tem funções específicas que suprem a necessidade de cada tipo de usuário. O protótipo desenvolvido em aula contempla apenas o nível associado, porém com as personas abaixo temos exemplos de perfis que pensei em atender com a aplicação futuramente.</p>
+
+            <h3>Persona 1</h3> 
+
+            <picture>
+                <source media="(max-width: 620px)" srcset="imagens/persona-mirian-p.jpg">
+                <source media="(max-width: 840px)" srcset="imagens/persona-mirian-m.jpg">
+                <img src="imagens/persona-mirian-g.jpg" alt="Primeira pessoa, administradora chamada Mirian.">
+            </picture>
+
+            <h3>Persona 2</h3>
+
+            <picture>
+                <source media="(max-width: 620px)" srcset="imagens/persona-antonio-p.jpg">
+                <source media="(max-width: 840px)" srcset="imagens/persona-antonio-m.jpg">
+                <img src="imagens/persona-antonio-g.jpg" alt="Segunda pessoa, organizador chamado Antônio.">
+            </picture> 
+
+            <h3>Persona 3</h3> 
+
+            <picture>
+                <source media="(max-width: 620px)" srcset="imagens/persona-ines-p.jpg">
+                <source media="(max-width: 840px)" srcset="imagens/persona-ines-m.jpg">
+                <img src="imagens/persona-ines-g.jpg" alt="Terceira pessoa, associada chamada Inês.">
+            </picture> 
+
+            <h3>Persona 4</h3>
+
+            <picture>
+                <source media="(max-width: 620px)" srcset="imagens/persona-eduardo-p.jpg">
+                <source media="(max-width: 840px)" srcset="imagens/persona-eduardo-m.jpg">
+                <img src="imagens/persona-eduardo-g.jpg" alt="Quarta pessoa, associado chamado Eduardo.">
+            </picture> 
+
+            <p class="ancora"><a href="#topo">Ir para o topo</a></p>
+
+            <h2 id="ideacao">Fase 3 - Ideação</h2> 
+
+            <p>Essa o início das fases práticas do projeto de design, onde foi desenhado o corpo da aplicação, pensado em suas funcionalidades, padrões, as tarefas que seriam disponibilizadas a partir dele. Na fase de ideação é a fase que temos ideias e a organizamos para então produzir o protótipo.</p> 
+
+            <p>Nessa parte irei apresentar alguns dos materiais desenvolvidos, a versão completa está no meu quadro do Miro que você pode acessar <a href="https://miro.com/app/board/uXjVObwSVQw=/?invite_link_id=709177125005" target="_blank">clicando aqui</a>.</p>
+
+            <ul>
+                <li><a href="#crazy8">Crazy8</a></li>
+                <li><a href="#storyboard">Storyboard</a></li>
+                <li><a href="#padraodeprojeto">Padrões de Projeto</a></li>
+                <li><a href="#listadetarefas">Lista de Tarefas</a></li>
+                <li><a href="#acessibilidade">Acessibilidade</a></li>
+            </ul>
+
+            <h3 id="crazy8">Crazy8</h3> 
+
+            <picture>
+                <source media="(max-width: 620px)" srcset="imagens/crazy8-p.jpg">
+                <source media="(max-width: 840px)" srcset="imagens/crazy8-m.jpg">
+                <img src="imagens/crazy8-g.jpg" alt="Crazy8 feito a mão durante as aulas.">
+            </picture> 
+
+            <p class="ancora"><a href="#ideacao">Ideação | </a><a href="#topo">Ir para o topo</a></p>
+
+            <h3 id="storyboard">Storyboard</h3>
+
+            <picture>
+                <source media="(max-width: 620px)" srcset="imagens/storyboard-p.jpg">
+                <source media="(max-width: 840px)" srcset="imagens/storyboard-m.jpg">
+                <img src="imagens/storyboard-g.jpg" alt="Storyboard com os caminhos das telas que terão no aplicativo.">
+            </picture>
+
+            <p class="ancora"><a href="#ideacao">Ideação | </a><a href="#topo">Ir para o topo</a></p>
+
+            
+            <h3 id="padraodeprojeto">Padrões de Projeto</h3>
+
+            <p>A lista completa se encontra no meu quadro, aqui estão os padrões que considero mais importantes da aplicação. Foram oito padrões identificados dentre os vários que podem ser citados no aplicativo, e aqui citarei dois.</p>
+
+            <aside>
+                <h4>Formato Estruturado</h4>
+                <p><strong>Descrição</strong>: Usuário precisa inserir dados rapidamente no sistema, mas o formato deve seguir uma estrutura pré-definida.</p>
+                <p><strong>Resumo</strong>: No formulário de Eventos existe o campo Data do Evento, que se clicado exibe um calendário para o usuário selecionar a data. Já vem configurado com o formato de data, assim como os campos de Hora configurados como horário.</p>
+                
+                <p><strong>Recomendação de Uso</strong>: Quando você deseja coletar um dado específico, como uma data, hora, número de telefone, etc.</p>
+            </aside>
+
+            <aside>
+                <h4>Good Default - Bom Padrão</h4>
+                <p><strong>Descrição</strong>: Para agilizar o preenchimento do formulário, sugere valores padrão de maior probabilidade de uso. Não utilizar para campos de dados sensíveis.</p>
+                <p><strong>Resumo</strong>: Existem 2 tipos de espaço para reserva, a grande maioria dos eventos é feita no espaço pequeno, então a sugestão padrão é o Salão Pequeno. Inicia já com o Radion Button Salão Pequeno selecionado.</p>
+                <p><strong>Recomendação de Uso</strong>: quando uma possibilidade tiver maior probabilidade de corresponder a uma escolha padrão do usuário.</p>
+            </aside>
+
+            <p class="ancora"><a href="#ideacao">Ideação | </a><a href="#topo">Ir para o topo</a></p>
+
+
+            <h3 id="listadetarefas">Lista de Tarefas</h3>
+
+            <p>Por mais que o protótipo desenvolvido atenda apenas a um dos três publicos desejados, ele tem várias tarefas que podem ser feitas, selecionei algumas para mostrar aqui. A versão completa da lista de tarefas está no meu quadro do Miro, consulte-o para conferir.</p>
+
+            <h4>Acessar a Agenda</h4>
+
+            <p>Utilizar o botão na tela inicial indicando "Agenda" ou o ícone de calendario no menu inferior.</p>
+
+            <picture>
+                <source media="(max-width: 840px)" srcset="imagens/prototipo/acessar-agenda-m.png">
+                <img src="imagens/prototipo/acessar-agenda-g.png" alt="Sequência de telas que demonstra botões e caminhos para acessar a agenda.">
+            </picture> 
+
+            <h4>Acessar Histórico de Eventos</h4>
+
+            <p>Utilizar o botão na tela inicial indicando "Meus Eventos", ou tocar sobre o card "Minhas reservas" na tela inicial, ou tocando sobre o card do evento exibido dentro da área "Minhas Reservas" na tela inicial.</p>
+
+            <picture>
+                <source media="(max-width: 840px)" srcset="imagens/prototipo/historico-m.png">
+                <img src="imagens/prototipo/historico-g.png" alt="Sequência de telas que exibem botões e caminhos para acessar histórico dos eventos e seus status.">
+            </picture>
+
+            <h4>Solicitar uma Nova Reserva</h4>
+
+            <p>Existem diversas formas de fazer essa tarefa. Utilizando o botão com ícone de adição ( + ) no menu inferior. Acessar a tela da Agenda, selecionar uma data no calendário e prosseguir pelo botão "Solicitar Reserva". Deve preencher o formulário e enviar, a data da reserva pode ser alterada no campo "Data do Evento".</p>
+            
+            <picture>
+                <source media="(max-width: 840px)" srcset="imagens/prototipo/solicitar-m.png">
+                <img src="imagens/prototipo/solicitar-g.png" alt="Sequência de telas que mostram como efetuar solicitação de reserva.">
+            </picture> 
+
+            <p>Caso o botão "Solicitar reserva" esteja desabilitado é porque a data desejada já está ocupada, assim não poderá seguir com a solicitação conforme a imagem abaixo.</p>
+
+            <img src="imagens/prototipo/solicitar-bloqueado.png" class="pequena" alt="Tela exibindo o botão de Solicitar Reserva desabilitado.">
+
+            <p>A lista completa conta com um total de onze tarefas com muito mais funcionalidades como acessar o perfil, notificações, login, configurações, visite <a href="https://miro.com/app/board/uXjVObwSVQw=/?invite_link_id=709177125005" target="_blank">todas as tarefas</a> para ter mais detalhes.</p>
+
+            <p class="ancora"><a href="#ideacao">Ideação | </a><a href="#topo"">Ir para o topo</a></p>
+
+
+            <h3 id="acessibilidade">Acessibilidade</h3>
+
+            <p>
+                A acessibilidade é muito necessária neste trabalho por conta do publico principal que se busca ser atingido, é um público de mais idade, não são idosos mas tem idade avançada em comparação a quem é mais familiarizado com tecnologia em geral, ou seja, um publico mais jovem. Dessa forma alguns cuidados foram tomados tanto em padrões como em acessibilidade no aplicativo seguindo o <a href="https://guia-wcag.com/" target="_blank"><abbr title="Diretrizes de Acessibilidade para o Conteúdo da Web">guia WCAG</abbr></a> traduzido em português. 
+                A acessibilidade em maioria foi aplicada no site, seguindo o <a href="http://emag.governoeletronico.gov.br/" target="_blank"><abbr title="Modelo de Acessibilidade em Governo Eletrônico">modelo eMag</abbr></a> brasileiro .
+            </p> 
+
+            <h4>Acessibilidade no Aplicativo</h4>
+
+            <p><strong>1.4.1</strong> Uma mensagem de erro deve trazer cores, ícone e uma mensagem informando como corrigir. No aplicativo quando uma reserva não é aprovada gera uma notificação pedindo para entrar em contato com o escritório, por ser pré-reservas precisa de aprovação humana e avaliação das solicitações então o escritório deve ser procurado.</p>
+
+            <p><strong>2.4.5</strong> Devem existir mais de uma opção para encontrar um conteúdo. Vários atalhos e botões foram criados como caminho para as telas, inclusive um menu inferior no aplicativo para construir links e acessar facilmente qualquer área do aplicativo.</p> 
+
+            <p><strong>2.5.5</strong> O tamanho das áreas acionáveis por toque devem ser de no mínimo 44x44 pixels de espaçamento, a não ser quando está em um texto. As áreas clícaveis foram padronizadas em blocos de 44x44px ou com altura 44px e largura maior que esse tamanho.</p> 
+
+            <h4>Acessibilidade no Site</h4>
+
+            <p><strong>1.3</strong> Utilizar corretamente os níveis de cabeçalho.</p>
+
+            <p><strong>1.4</strong> Ordenar de forma lógica e intuitiva a leitura e tabulação.</p> 
+
+            <p><strong>1.5</strong> Fornecer âncoras para ir direto a um bloco de conteúdo.</p>
+
+            <p><strong>1.8</strong> Dividir as áreas de informação.</p>
+
+            <p><strong>2.1</strong> Disponibilizar todas as funções da pagina via teclado.</p>
+
+            <p><strong>3.1</strong> Identificar o idioma principal da página.</p>
+
+            <p><strong>3.3</strong> Oferecer um titulo descritivo e informativo à pagina.</p>
+
+            <p><strong>3.6</strong> Fornecer alternativa em texto para as imagens do sítio.</p>
+
+            <p><strong>4.1</strong> Oferecer contraste mínimo entre plano de fundo e primeiro plano</p>
+
+            <p><strong>4.3</strong> Permitir redimensionamento sem perda de funcionalidade</p>
+
+            <p class="ancora"><a href="#ideacao">Ideação | </a><a href="#topo"">Ir para o topo</a></p>
+
+            <h2 id="prototipo">Fase 4 - Protótipo</h2>
+
+            <p>Depois de pensar no corpo da aplicação, planejar as tarefas, ter ideias sobre o que se quer produzir em telas, parte-se para o desenvolvimento do protótipo. Foi feito apenas o nível de acesso de associado por conta de tempo de desenvolvimento e de recursos disponíveis em nível de programação. Você pode acessar o protótipo abaixo pela extensão, ou pelo link do protótipo do Figma <a href="https://www.figma.com/proto/dPLo4blQNm3skQdwmgDH6j/Agenda?node-id=3421%3A13724&scaling=scale-down&page-id=3421%3A13723&starting-point-node-id=3454%3A3403" target="_blank">clicando aqui</a>, ou pode encontrar o link no meu quadro do Miro.</p> 
+
+            <div class="prototipo">
+                <iframe style="border: 1px solid rgba(0, 0, 0, 0.1);" width="800" height="450" src="https://www.figma.com/embed?embed_host=share&url=https%3A%2F%2Fwww.figma.com%2Fproto%2FdPLo4blQNm3skQdwmgDH6j%2FAgenda%3Fnode-id%3D3421%253A13724%26scaling%3Dscale-down%26page-id%3D3421%253A13723%26starting-point-node-id%3D3454%253A3403" allowfullscreen></iframe>
+            </div>
+
+            <p class="ancora"><a href="#topo">Ir para o topo</a></p>
+
+            <h2 id="testes">Fase 5 - Testes</h2> 
+
+            <p>Os testes foram aplicados em cinco pessoas com idades variadas para ter uma ideia real do publico que irá utilizar o produto, desde jovens até idosos, onde a grande parcela de usuários está entre idades 30 a 50 anos. O protótipo teve score 73,5 sem aplicação de recursos de acessibilidade avançados que poderiam ajudar na utilização do aplicativo.</p>
+
+            <picture>
+                <source media="(max-width: 620px)" srcset="imagens/tabela-teste-p.jpg">
+                <source media="(max-width: 840px)" srcset="imagens/tabela-teste-m.jpg">
+                <img src="imagens/tabela-teste-g.jpg" alt="Tabela que exibe os dados coletados da pesquisa e exibe o resultado do teste.">
+            </picture>
+
+            <p><strong>Resultado</strong>: Aplicativo classificado na nota C, adjetivo OK, aceitação Marginal para Aceitável e NPS Passivo.</p>
+
+            <picture>
+                <source media="(max-width: 620px)" srcset="imagens/tabela-sus-p.jpg">
+                <source media="(max-width: 840px)" srcset="imagens/tabela-sus-m.jpg">
+                <img src="imagens/tabela-sus-g.jpg" alt="Tabela de medição SUS para comparação do resultado obtido.">
+            </picture>
+
+            <p class="ancora"><a href="#topo">Ir para o topo</a></p>
+        </article>
+    </main>
+    <footer id="criadora">
+        <p>
+            Criado por Emmanuella Moura da Silva para a Disciplina de Design de Interfaces Humano Computador, 2022. IFPR - Campus Palmas.
+        </p>
+    </footer>
+</body>
+</html>
